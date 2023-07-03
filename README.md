@@ -1,4 +1,4 @@
-## React Props: Pokedex
+# React Props: Pokedex
 # This exercise lets you pratice using React components and properties.
 
 Create a pokemon application (a “pokedex”) that displays an interface that looks like this:
@@ -27,10 +27,10 @@ Use the defaultProps feature of Pokedex to provide a default list of Pokemon cha
   {id: 94, name: 'Gengar', type: 'poison', base_experience: 225},
   {id: 133, name: 'Eevee', type: 'normal', base_experience: 65}
 ]
-# For each pokemon, their image source should be: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png.
+### For each pokemon, their image source should be: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png.
 
 ## Further Study: More Pokemon!
-# Pokegame Component
+## Pokegame Component
 Modify your component hierarchy so that App renders a component called Pokegame. Pokegame should take your list of 8 pokemon and randomly assign them into two hands of 4 cards each. It should then render two Pokedex components, one for each hand.
 
 Once you’ve got this working, modify your Pokegame so that it also calculates the total experience for each hand of pokemon. It should pass this total to the Pokedex.
